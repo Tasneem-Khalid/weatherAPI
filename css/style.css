@@ -1,0 +1,37 @@
+
+
+body {
+    box-sizing: border-box;
+    background-color: rgba(19, 22, 40, 0.85);
+    color: white;
+}
+
+header nav .navbar-nav a{
+    color: white;
+}
+
+section.bg-img{
+    height: 400px;
+    background-image: url(./../imgs/imgi_6_banner.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+/* weather section */
+
+.search-box input{
+    background-color: #323544;
+    color: aliceblue;
+}
+
+section.weather .row .edge .day{
+
+    background-color: #2D303D;
+
+}
+
+section.weather .row .edge{
+
+    background-color: #323544;
+
+}

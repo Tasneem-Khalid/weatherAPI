@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Weather API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./bootstrap-5.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+    <header class="d-flex justify-content-around align-items-center p-5">
+        <div class="logo d-flex align-items-center" class="w-25">
+            <img src="./imgs/logo.png" class="w-75" alt="weather logo">
+            <h1 class="h4 text-light p-3">Weather</h1>
+        </div>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">News</a>
+                    <a class="nav-link" href="#">Live Cameras</a>
+                    <a class="nav-link" href="#">Photos</a>
+                    <a class="nav-link" href="#">Contacts</a>
+                </div>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <section class="bg-img">
+    </section>
+
+    <section class="weather">
+        <div class="container mb-5">
+
+            <div class="search-box">
+                <input type="text" id="search-bar" class=" w-100 px-4 py-2 rounded-pill my-4 " placeholder="Search for any city..." >
+            </div>
+
+            <div class="row my-4" id="weather-display">
+            </div>
+
+        </div>
+    </section>
+<script src="bootstrap-5.3.5-dist/js/bootstrap.min.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
