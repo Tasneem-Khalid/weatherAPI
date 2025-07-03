@@ -5,7 +5,7 @@ document.getElementById('search-bar').addEventListener('input', function(){
         getWeather(myInput)
 })
 async function getWeather(query){
-    let myFetch = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=680cafa3b2cf4af4acc44107253006&q=${query}&days=3`)
+    let myFetch = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=680cafa3b2cf4af4acc44107253006&q=${query}&days=3`)
     let myData = await myFetch.json()
     let currentWeather = myData.current
     let forecastWeather = myData.forecast.forecastday
